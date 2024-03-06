@@ -33,6 +33,7 @@ if (iStr != null && int.TryParse(iStr, out n))
             oddCounter++;
         }
     }
+
     Console.WriteLine("amount of even");
     Console.WriteLine(evenCounter);
     Console.WriteLine("amount of odd");
